@@ -77,9 +77,6 @@ p {
     margin-bottom: 40px;
 }
 
-/*Portfolio starts here */
-
-
 /* Contact page starts here */
 .row {
     width: 100%;
@@ -110,7 +107,7 @@ input[type=text], select, textarea {
   }
 
   input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: rgb(57, 60, 245);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -121,10 +118,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #4aaaa5;
+    background-color: aliceblue;
   }
-
-
 
 @media screen and (max-width: 980px) {
     body {

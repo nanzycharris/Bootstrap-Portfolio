@@ -7,58 +7,89 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
 </head>
 
 <body>
 
     <header>
-        <div class="navbar">
-            <h1>Nancy C. Harris</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="#">Nancy C. Harris</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
     </header>
-    </div>
     <div class="container">
-        <h2>Contact</h2>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="page-header">
+                    <div class="row">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
 
-        <div>
-            <form action="/action_page.php">
-                <div class="row">
-                    <label for="name">Name</label></div>
-                <div class="col-75">
-                    <input type="text" id="name" name="firstandlastname" placeholder="John Wick">
+                <div>
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <label for="name">Name</label></div>
+                        <div class="col-75">
+                            <input type="text" id="name" name="firstandlastname" placeholder="John Wick">
+                        </div>
+                        <div class="row">
+                            <div class="col-25"></div>
+                            <label for="Email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="email" placeholder="johnwick@gmail.com">
+                        </div>
+                    </form>
                 </div>
                 <div class="row">
-                    <div class="col-25"></div>
-                    <label for="Email">Email</label>
                 </div>
-                <div class="col-75">
-                    <input type="text" id="email" name="email" placeholder="johnwick@gmail.com">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Message">Message</label>
+                    </div>
+                    <div class="col-message">
+                        <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+                    </div>
                 </div>
-        </div>
-        <div class="row">
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="Message">Message</label>
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0">Preferred Language</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    English
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Spanish
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
             </div>
-            <div class="col-message">
-                <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
-            </div>
         </div>
-        <div class="submit">
-            <input type="submit" value="Submit">
-        </div>
-        </form>
-    </div>
-    </div>
     </div>
 </body>
 <footer>
