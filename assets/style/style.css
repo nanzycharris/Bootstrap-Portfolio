@@ -120,6 +120,11 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: aliceblue;
   }
+/* Portfolio starts here */
+
+.card-text {
+    text-align: center;
+}
 
 @media screen and (max-width: 980px) {
     body {
