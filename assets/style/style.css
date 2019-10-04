@@ -41,7 +41,7 @@ font-size: 25px;
 
 /* About page starts here */
 
-.card {
+/*.card {  
     margin-top: -15px;
 }
 
@@ -61,10 +61,7 @@ p {
     font-size: 16.5px; 
 }
 
-#p1 {
-    margin-left: 378px;
-    margin-top: -380px;
-}
+
 
 #p2 {
     margin-left: 378px;
