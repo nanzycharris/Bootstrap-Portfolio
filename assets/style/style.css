@@ -6,31 +6,18 @@ body {
     font-family: 'Arial', "Helvetica Neue", Arial, Helvetica, sans-serif;
     background-color: rgb(237, 246, 253);
     width: 100%;
+    height: 100%;
     align-content: center;
     display: flex;
     flex-direction: column;
    }
 
-.sticky-footer {
-    width: 100%;
-    height: 80px;
-    background-color: rgb(148, 195, 236);
-    color: white;
-    border-top: solid 1px white;
-    text-align: center;
-    margin-bottom: -20px;
-    margin-left: -5px;
-    margin-top: 25px;
-    padding-top: 30px;
-}
-
 .container {
     width: 100%;
-    height: auto;
+    height: 100%;
     font-family: 'Arial', "Helvetica Neue", Arial, Helvetica, sans-serif;
     margin-top: 0px;
     margin-bottom: 1px;
-    clear: both;
 }
 
 .wrapper {
@@ -38,6 +25,11 @@ body {
     width: auto;
 }
     
+.row {
+    width: 100%;
+    align-content: center;
+}
+
 nav {
     height: 70px;
 }
@@ -47,6 +39,11 @@ font-size: 27px;
 font-weight: 650;
 color: #858585;
 text-shadow: black 1px 0.5px;
+}
+
+#contact1 {
+    margin-right: 50px;
+    margin-left: -30px;
 }
 
 /* About starts here */
@@ -60,7 +57,18 @@ p {
     font-size: 16.5px; 
 }
 
-
+.sticky-footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(148, 195, 236);
+    color: white;
+    border-top: solid 1px white;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-left: -5px;
+    margin-top: 25px;
+    padding-top: 30px;
+}
 
 #p2 {
     margin-left: 378px;
