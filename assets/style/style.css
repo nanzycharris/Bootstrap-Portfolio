@@ -7,6 +7,8 @@ body {
     background-color: rgb(237, 246, 253);
     width: 100%;
     align-content: center;
+    display: flex;
+    flex-direction: column;
    }
 
 .sticky-footer {
@@ -31,6 +33,10 @@ body {
     clear: both;
 }
 
+.wrapper {
+    float: left;
+    width: auto;
+}
     
 nav {
     height: 70px;
