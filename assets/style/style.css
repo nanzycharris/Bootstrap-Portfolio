@@ -6,9 +6,10 @@ body {
     font-family: 'Arial', "Helvetica Neue", Arial, Helvetica, sans-serif;
     background-color: rgb(237, 246, 253);
     width: 100%;
+    align-content: center;
    }
 
-footer {
+.sticky-footer {
     width: 100%;
     height: 80px;
     background-color: rgb(148, 195, 236);
@@ -28,27 +29,19 @@ footer {
     margin-top: 0px;
     margin-bottom: 1px;
     clear: both;
-    }
+}
 
     
 nav {
     height: 70px;
 }
 
-.navbar-brand {
-font-size: 25px;
+#name {
+font-size: 27px;
+font-weight: 650;
+color: #858585;
+text-shadow: black 1px 0.5px;
 }
-
-/* About page starts here */
-
-/*.card {  
-    margin-top: -15px;
-}
-
-h1 {
-    color: rgb(57, 60, 245);
-    margin-top: 15px; 
-    }
 
 /* About starts here */
 img {
